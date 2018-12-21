@@ -106,9 +106,9 @@ inkl Storypoints
 
 #### Legende
 
-M -> Basis - Merkmal
-L -> Leistungs - Merkmal
-E -> Begeisterungs - Merkmal
+##### M -> Basis - Merkmal
+##### L -> Leistungs - Merkmal
+##### E -> Begeisterungs - Merkmal
 
 
 ### Release Plan
