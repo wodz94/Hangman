@@ -61,9 +61,7 @@ inkl Storypoints
                 
 ### Release Plan
 
-| User Stroy 3|    Als Spieler 1 moechte ich über die physische oder vituelle Tastatur ein Wort eingeben koennen um das Spiel zu beginnen.|
-|-------------|---------------------------------------------------------------------------------------------------------------------------|
-||||
+User Stroy 3:    Als Spieler 1 moechte ich über die physische oder vituelle Tastatur ein Wort eingeben koennen um das Spiel zu beginnen.
 |-------------|--------------------------------------------------------------------|------------------------------------------------------|
 |Task 1|Textfeld erstellen & Eingabe Entgegennahme erstellen.	|2h|
 |Task 2|Eingabeprüfung											|1h|
