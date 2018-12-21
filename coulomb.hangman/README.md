@@ -134,35 +134,31 @@ inkl Storypoints
 |:-------:|---------------------------------------------------------------------|:-----:|
 | Task 1  |Im TastaturController Key Events erstellen							|1 h	|
 | Task 2  |MainApp erstellen mit rootPane										|3 h	|
-
+|		  |																		|		|
 | US 3    |Spielinitialisierung													| Time  |
-|:-------:|---------------------------------------------------------------------|:-----:|
 | Task 1  |Textfeld erstellen & Eingabe Entgegennahme erstellen					|2 h	|
 | Task 2  |Eingabeprüfung														|1 h	|
-
+|		  |																		|		|
 | US 4    |Tastenverriegelung													| Time  |
-|:-------:|---------------------------------------------------------------------|:-----:|
 | Task 1  |Tastenaktualisierung Programmieren									|2 h	|
 | Task 2  |Aktualisierung in bestehenden Code einfügen							|1 h	|
-
+|		  |																		|		|
 | US 5    |Hangmananzeige														| Time  |
-|:-------:|---------------------------------------------------------------------|:-----:|
 | Task 1  |Grafikelemente Malen													|1 h	|
 | Task 2  |Controllerklasse erstellen											|2 h	|
 | Task 3  |Zuweisung und Darstellungskontrolle der Elemente						|2 h	|
-
+|		  |																		|		|
 | US 6    |Wortanzeige															| Time  |
-|:-------:|---------------------------------------------------------------------|:-----:|
 | Task 1  |Label erstellen & Einbettung											|1 h	|
 | Task 2  |Programmierung Platzhalterverwaltung									|2 h	|
 | Task 3  |Erstellung der Aktualisierungsmethode								|1 h	|
-
+|		  |																		|		|
 | US 7    |Gewonnen / Verloren													| Time  |
-|:-------:|---------------------------------------------------------------------|:-----:|
 | Task 1  |Label erstellen & Einbettung											|1 h	|
 | Task 2  |EProgrammierung der Gewinnerlogik									|1 h	|
 
 
+|	Auswertung			|		|
 |----------------------:|-------|
 | Total Stunden:  		|  21	|
 | Total Story Points: 	|  27	|
