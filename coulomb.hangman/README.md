@@ -113,14 +113,14 @@ inkl Storypoints
 
 ### Release Plan
 
-| Sprint 1  07.12.2018-15.12.2018  |SP |Sprint 2  15.12.2018-27.12.2018  |SP |
-|-----------------------|:-----:|-------------------|:-:|
-|User Story 2			|3	 	|User Story 1		|5	|
-|User Story 3			|3		|User Story 4		|3	|
-|User Story 5			|8		|User Story 8		|2	|
-|User Story 6			|8		|User story 9		|8	|
-|User Story 7			|2		|					|	|
-|Total: 				|24		|Total:				|18	|
+| Sprint 1:  07.12.2018-15.12.2018  |SP |Sprint 2:  15.12.2018-27.12.2018  |SP |
+|-----------|:-----:|--------|:-:|
+|User Story 2	|3	 	|User Story 1	|5	|
+|User Story 3	|3		|User Story 4	|3	|
+|User Story 5	|8		|User Story 8	|2	|
+|User Story 6	|8		|User story 9	|8	|
+|User Story 7	|2		|				|	|
+|Total: 		|24		|Total:			|18	|
 
 
 ### Velocity
