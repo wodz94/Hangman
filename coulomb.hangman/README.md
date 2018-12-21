@@ -45,7 +45,8 @@ inkl Storypoints
 
 ### Release Plan
 
-### Userstories mit Akzeptanzkriterien
+
+
 | US | Name                 |                                                                                                                                                                                                                                                                                                                                                | SP | Prio |
 |---:|----------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:--:|:----:|
 | 1  | Virtuelle Tastatur   |	Als Spieler 2 moechte ich virtuelle tasten betätigen können um dem Spiel einen Buchstaben vor zu schlagen".   <br><b> Akzeptanzkriterien: </b><br> - Teste, ob im Spiel eine virtuelle tastatur angezeigt wird. <br> - Teste, ob das Programm eine bzw. die richtige Eingabe entgegennimmt.																						| 5  | 2    |
@@ -59,6 +60,11 @@ inkl Storypoints
 | 9  | Maven		 		|	Als Benutzer moechte ich von Git-Hub eine JAR-Datei herunterladen können um das Spiel auf meinem Computer zu Spielen. <br> <b> Akzeptanzkriterien </b> <br> - Teste ob, auf Git-Hub eine JAR-Datei vorhanden ist. <br> - Teste ob, auf Git-Hub eine Dokumentation vorhanden ist.																								| 8  | 3	|
                 
 ### Release Plan
+
+| User Stroy 3|    Als Spieler 1 moechte ich über die physische oder vituelle Tastatur ein Wort eingeben koennen um das Spiel zu beginnen.|
+|-------------|---------------------------------------------------------------------------------------------------------------------------|
+
+
 
 -	Business value 
 inkl Ausbaustufen
