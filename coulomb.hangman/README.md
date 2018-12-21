@@ -76,9 +76,7 @@ inkl Storypoints
 | 2  | Return number based on letter    | 'a'   | 0               | 0             | Eclipse EE IDE | Passed      |
 | 3  | Caps-insensitivity of Test Nr 2  | 'A'   | 0               | 0             | Eclipse EE IDE | Passed      |
 
-### Release Plan
-
-
+### User Stories
 
 | US | Name                 |                                                                                                                                                                                                                                                                                                                                                | SP | Prio |
 |---:|----------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:--:|:----:|
@@ -91,7 +89,22 @@ inkl Storypoints
 | 7  | Gewonnen / Verloren  |	Als Spieler 2 moechte ich am Ende des Spiels darauf hingewiesen werden ob ich das Spiel gewonnen oder verloren habe, um zu wissen ob wann das Spiel beendet ist. <br> <b> Akzeptanzkriterien </b> <br> - Teste ob, am Ende des spiels eine Anzeige erscheint welche besagt ob das Spiel gewonnen oder verloren ist.																| 2  | 1    |
 | 8  | New Game				|	Als Benutzer moechte ich ein New Game Button klicken koennen, um eine neue Runde zu spielen ohne das Programm neu starten zu müssen. <br> <b> Akzeptanzkriterien </b> <br> - Teste ob, man zu jeder Zeit des Spiels den New Game Button drücken kann und ein neues Spiel initialisiert wird.																					| 2  | 3    |
 | 9  | Maven		 		|	Als Benutzer moechte ich von Git-Hub eine JAR-Datei herunterladen können um das Spiel auf meinem Computer zu Spielen. <br> <b> Akzeptanzkriterien </b> <br> - Teste ob, auf Git-Hub eine JAR-Datei vorhanden ist. <br> - Teste ob, auf Git-Hub eine Dokumentation vorhanden ist.																								| 8  | 3	|
-                
+
+### Priorisierung
+      
+| US | Name                 |  Funktional	| Dysfunktional |  Merkmal 	| Priorität |
+|---:|----------------------|:-------------:|:-------------:|:---------:|:---------:|
+| 1  | Virtuelle Tastatur 	| 1				| 5				| L			| 2			|		
+| 2  | Physische Tastatur	| 2				| 5				| M			| 1			|		
+| 3  | Spielinitialisierung	| 2				| 5				| M			| 1			|
+| 4  | Tastenverriegelung	| 1				| 5				| L			| 2			|
+| 5  | Hangmananzeige		| 2				| 5				| M			| 1			|
+| 6  | Wortanzeige			| 2				| 5				| M			| 1			|
+| 7  | Gewonnen / Verloren	| 1				| 5				| M			| 1			|
+| 8  | New Game				| 1				| 4				| E			| 3			|
+| 9  | Maven           		| 1				| 4				| E			| 3			|
+
+
 ### Release Plan
 
 ####User Stroy 3:    
