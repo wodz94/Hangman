@@ -63,6 +63,7 @@ inkl Storypoints
 
 User Stroy 3:    
 Als Spieler 1 moechte ich über die physische oder vituelle Tastatur ein Wort eingeben koennen um das Spiel zu beginnen.
+
 | Nr. | Task 																| Time  |
 |-----|---------------------------------------------------------------------|-------|
 | 1	  |Textfeld erstellen & Eingabe Entgegennahme erstellen.				|2h		|
