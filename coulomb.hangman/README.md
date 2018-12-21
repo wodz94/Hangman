@@ -113,13 +113,62 @@ inkl Storypoints
 
 ### Release Plan
 
-####User Stroy 3:    
-Als Spieler 1 moechte ich über die physische oder vituelle Tastatur ein Wort eingeben koennen um das Spiel zu beginnen.
+| Sprint 1  07.12.2018-15.12.2018  |SP |Sprint 2  15.12.2018-27.12.2018  |SP |
+|-----------------------|:-----:|-------------------|:-:|
+|User Story 2			|3	 	|User Story 1		|5	|
+|User Story 3			|3		|User Story 4		|3	|
+|User Story 5			|8		|User Story 8		|2	|
+|User Story 6			|8		|User story 9		|8	|
+|User Story 7			|2		|					|	|
+|Total: 				|24		|Total:				|18	|
 
-| Nr. | Tasks 																| Time  |
-|-----|---------------------------------------------------------------------|-------|
-| 1	  |Textfeld erstellen & Eingabe Entgegennahme erstellen.				|2h		|
-| 2	  |Eingabeprüfung														|1h		|
+
+### Velocity
+
+-	Etwiklungsteam: 4 Personen
+-	Arbeitspensum pro Entwickler : 40 min Pro Tag
+-	Iterationslänge: 8 Tage
+-	Iteration max Arbeitszeit: 21h 20 min 
+
+| US 2    |Physische Tastatur													| Time  |
+|:-------:|---------------------------------------------------------------------|:-----:|
+| Task 1  |Im TastaturController Key Events erstellen							|1 h	|
+| Task 2  |MainApp erstellen mit rootPane										|3 h	|
+
+| US 3    |Spielinitialisierung													| Time  |
+|:-------:|---------------------------------------------------------------------|:-----:|
+| Task 1  |Textfeld erstellen & Eingabe Entgegennahme erstellen					|2 h	|
+| Task 2  |Eingabeprüfung														|1 h	|
+
+| US 4    |Tastenverriegelung													| Time  |
+|:-------:|---------------------------------------------------------------------|:-----:|
+| Task 1  |Tastenaktualisierung Programmieren									|2 h	|
+| Task 2  |Aktualisierung in bestehenden Code einfügen							|1 h	|
+
+| US 5    |Hangmananzeige														| Time  |
+|:-------:|---------------------------------------------------------------------|:-----:|
+| Task 1  |Grafikelemente Malen													|1 h	|
+| Task 2  |Controllerklasse erstellen											|2 h	|
+| Task 3  |Zuweisung und Darstellungskontrolle der Elemente						|2 h	|
+
+| US 6    |Wortanzeige															| Time  |
+|:-------:|---------------------------------------------------------------------|:-----:|
+| Task 1  |Label erstellen & Einbettung											|1 h	|
+| Task 2  |Programmierung Platzhalterverwaltung									|2 h	|
+| Task 3  |Erstellung der Aktualisierungsmethode								|1 h	|
+
+| US 7    |Gewonnen / Verloren													| Time  |
+|:-------:|---------------------------------------------------------------------|:-----:|
+| Task 1  |Label erstellen & Einbettung											|1 h	|
+| Task 2  |EProgrammierung der Gewinnerlogik									|1 h	|
+
+
+|----------------------:|-------|
+| Total Stunden:  		|  21	|
+| Total Story Points: 	|  27	|
+| SP/h: 				|  1.29	|
+| SP/ Iteration: 		|  27.4	|
+
 
 
 
