@@ -104,6 +104,12 @@ inkl Storypoints
 | 8  | New Game				| 1				| 4				| E			| 3			|
 | 9  | Maven           		| 1				| 4				| E			| 3			|
 
+#### Legende
+
+M -> Basis - Merkmal
+L -> Leistungs - Merkmal
+E -> Begeisterungs - Merkmal
+
 
 ### Release Plan
 
