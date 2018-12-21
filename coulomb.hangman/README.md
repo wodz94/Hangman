@@ -62,7 +62,7 @@ inkl Storypoints
                 
 ### Release Plan
 
--	Business value
+-	Business value 
 inkl Ausbaustufen
 
 ## Dokumentation Sprint
