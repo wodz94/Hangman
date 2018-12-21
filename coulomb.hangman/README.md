@@ -46,8 +46,6 @@ inkl Storypoints
 ### Release Plan
 
 ### Userstories mit Akzeptanzkriterien
-
-### Userstories mit Akzeptanzkriterien
 | US | Name                 |                                                                                                                                                                                                                                                                                                                                                | SP | Prio |
 |---:|----------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:--:|:----:|
 | 1  | Virtuelle Tastatur   |	Als Spieler 2 moechte ich virtuelle tasten betätigen können um dem Spiel einen Buchstaben vor zu schlagen".   <br><b> Akzeptanzkriterien: </b><br> - Teste, ob im Spiel eine virtuelle tastatur angezeigt wird. <br> - Teste, ob das Programm eine bzw. die richtige Eingabe entgegennimmt.																						| 5  | 2    |
