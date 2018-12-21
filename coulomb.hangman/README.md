@@ -80,15 +80,15 @@ inkl Storypoints
 
 | US | Name                 |                                                                                                                                                                                                                                                                                                                                                | SP | Prio |
 |---:|----------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:--:|:----:|
-| 1  | Virtuelle Tastatur   |	Als Spieler 2 moechte ich virtuelle tasten betätigen können um dem Spiel einen Buchstaben vor zu schlagen".   <br><b> Akzeptanzkriterien: </b><br> - Teste, ob im Spiel eine virtuelle tastatur angezeigt wird. <br> - Teste, ob das Programm eine bzw. die richtige Eingabe entgegennimmt.																						| 5  | 2    |
-| 2  | Physische Tastatur   |	Als Spieler 2 moechte ich über die physischen tasten, Eingaben machen können um  dem Spiel einen Buchstaben vor zu schlagen. <br><b> Akzeptanzkriterien: <br></b> - Teste, ob mit der Tastatur, Eingaben gemacht werden können die das Programm erkennt.																														| 3  | 1    |
-| 3  | Spielinitialisierung |	Als Spieler 1 moechte ich über die physische oder vituelle Tastatur ein Wort eingeben koennen um  das Spiel zu beginnen. <br><b> Akezeptanzkriterien: <br></b> - Teste, ob sich über die physische tastatur ein Wort eingeben lässt um das Spiel zu initialisieren.<br> - Teste, ob sich über die virtuelle Tastatur ein Wort eingeben lässt um das Spiel zu initialisieren.	| 3  | 1    |
-| 4  | Tastenverriegelung   |	Als Spieler 2 moechte ich das Tasten die bereits gedrueckt wurden angezeigt werden  um  Falscheingaben zu vermeiden. <br><b> Akzeptanzkriterien: <br></b> - Teste, ob bereits ausgewaehlte Tasten "Buchstaben" disabled werden. <br> - Teste, ob das Programm von bereits ausgewählten Tasten keine eingabe mehr entgegennimmt.													| 3  | 2    |   
+| 1  | Virtuelle Tastatur   |	Als Spieler 2 moechte ich virtuelle tasten betaetigen können um dem Spiel einen Buchstaben vor zu schlagen".   <br><b> Akzeptanzkriterien: </b><br> - Teste, ob im Spiel eine virtuelle Tastatur angezeigt wird. <br> - Teste, ob das Programm eine bzw. die richtige Eingabe entgegennimmt.																						| 5  | 2    |
+| 2  | Physische Tastatur   |	Als Spieler 2 moechte ich über die physischen Tasten, Eingaben machen koennen um  dem Spiel einen Buchstaben vor zu schlagen. <br><b> Akzeptanzkriterien: <br></b> - Teste, ob mit der Tastatur, Eingaben gemacht werden koennen die das Programm erkennt.																														| 3  | 1    |
+| 3  | Spielinitialisierung |	Als Spieler 1 moechte ich über die physische oder vituelle Tastatur ein Wort eingeben koennen um  das Spiel zu beginnen. <br><b> Akezeptanzkriterien: <br></b> - Teste, ob sich über die physische Tastatur ein Wort eingeben laesst um das Spiel zu initialisieren.<br> - Teste, ob sich ueber die virtuelle Tastatur ein Wort eingeben laesst um das Spiel zu initialisieren.	| 3  | 1    |
+| 4  | Tastenverriegelung   |	Als Spieler 2 moechte ich das Tasten die bereits gedrueckt wurden angezeigt werden  um  Falscheingaben zu vermeiden. <br><b> Akzeptanzkriterien: <br></b> - Teste, ob bereits ausgewaehlte Tasten "Buchstaben" disabled werden. <br> - Teste, ob das Programm von bereits ausgewaehlten Tasten keine eingabe mehr entgegennimmt.													| 3  | 2    |   
 | 5  | Hangmananzeige       |	Als Spieler 2 moechte ich sehen wie nach jeder Falscheingabe ein Element des Hangmans hinzu kommt um zu sehen wie viele Falscheingaben noch moeglich sind. <br> <b> Akzeptanzkriterien </b> <br> - Teste, ob nach jeder Falscheingabe ein Element des Hangmans hinzukommt. <br> - Teste, ob das Spiel beendet wird, wenn der Hangman fertig aufgebaut ist.						| 8  | 1 	|
-| 6  | Wortanzeige          |	Als Spieler 2 moechte ich Sehen wie nach jeder richtigen Eingabe der Buchstabe am entsprechenden Platz im Wort erscheint, um zu sehen aus welchen Buchstaben das Wort bereits besteht. <br><b> Akzeptanzkriterien: <br></b> - Teste ob, nach jeder richtigen Eingabe ein Element des Wortes hinzukommt. <br> - Teste ob das Spiel beendet wird, wenn das Wort komplett ist.		| 8  | 1 	|
-| 7  | Gewonnen / Verloren  |	Als Spieler 2 moechte ich am Ende des Spiels darauf hingewiesen werden ob ich das Spiel gewonnen oder verloren habe, um zu wissen ob wann das Spiel beendet ist. <br> <b> Akzeptanzkriterien </b> <br> - Teste ob, am Ende des spiels eine Anzeige erscheint welche besagt ob das Spiel gewonnen oder verloren ist.																| 2  | 1    |
-| 8  | New Game				|	Als Benutzer moechte ich ein New Game Button klicken koennen, um eine neue Runde zu spielen ohne das Programm neu starten zu müssen. <br> <b> Akzeptanzkriterien </b> <br> - Teste ob, man zu jeder Zeit des Spiels den New Game Button drücken kann und ein neues Spiel initialisiert wird.																					| 2  | 3    |
-| 9  | Maven		 		|	Als Benutzer moechte ich von Git-Hub eine JAR-Datei herunterladen können um das Spiel auf meinem Computer zu Spielen. <br> <b> Akzeptanzkriterien </b> <br> - Teste ob, auf Git-Hub eine JAR-Datei vorhanden ist. <br> - Teste ob, auf Git-Hub eine Dokumentation vorhanden ist.																								| 8  | 3	|
+| 6  | Wortanzeige          |	Als Spieler 2 moechte ich sehen wie nach jeder richtigen Eingabe der Buchstabe am entsprechenden Platz im Wort erscheint, um zu sehen aus welchen Buchstaben das Wort bereits besteht. <br><b> Akzeptanzkriterien: <br></b> - Teste ob, nach jeder richtigen Eingabe ein Element des Wortes hinzukommt. <br> - Teste ob das Spiel beendet wird, wenn das Wort komplett ist.		| 8  | 1 	|
+| 7  | Gewonnen / Verloren  |	Als Spieler 2 moechte ich am Ende des Spiels darauf hingewiesen werden ob ich das Spiel gewonnen oder verloren habe, um zu wissen wann das Spiel beendet ist. <br> <b> Akzeptanzkriterien </b> <br> - Teste ob, am Ende des Spiels eine Anzeige erscheint welche besagt ob das Spiel gewonnen oder verloren ist.																| 2  | 1    |
+| 8  | New Game				|	Als Benutzer moechte ich ein New Game-Button klicken koennen, um eine neue Runde zu spielen ohne das Programm neu starten zu müssen. <br> <b> Akzeptanzkriterien </b> <br> - Teste ob, man zu jeder Zeit des Spiels den New Game Button drücken kann und ein neues Spiel initialisiert wird.																					| 2  | 3    |
+| 9  | Maven		 		|	Als Benutzer moechte ich von Git-Hub eine JAR-Datei herunterladen koennen um das Spiel auf meinem Computer zu Spielen. <br> <b> Akzeptanzkriterien </b> <br> - Teste ob, auf Git-Hub eine JAR-Datei vorhanden ist. <br> - Teste ob, auf Git-Hub eine Dokumentation vorhanden ist.																								| 8  | 3	|
 
 ### Priorisierung
       
@@ -115,12 +115,13 @@ inkl Storypoints
 
 | Sprint 1:  07.12.2018-15.12.2018  |SP |Sprint 2:  15.12.2018-27.12.2018  |SP |
 |-----------|:-----:|--------|:-:|
-|User Story 2	|3	 	|User Story 1	|5	|
-|User Story 3	|3		|User Story 4	|3	|
-|User Story 5	|8		|User Story 8	|2	|
-|User Story 6	|8		|User story 9	|8	|
+|User Story 2	|3	 	|User Story 4	|3	|
+|User Story 3	|3		|User Story 8	|2	|
+|User Story 5	|8		|User story 9	|8	|
+|User Story 6	|8		|				|	|
 |User Story 7	|2		|				|	|
-|Total: 		|24		|Total:			|18	|
+|User Story 1	|5		|				|	|
+|Total: 		|29		|Total:			|13	|
 
 
 ### Velocity
@@ -139,12 +140,8 @@ inkl Storypoints
 | Task 1  |Textfeld erstellen & Eingabe Entgegennahme erstellen					|2 h	|
 | Task 2  |Eingabeprüfung														|1 h	|
 |		  |																		|		|
-| US 4    |Tastenverriegelung													| Time  |
-| Task 1  |Tastenaktualisierung Programmieren									|2 h	|
-| Task 2  |Aktualisierung in bestehenden Code einfügen							|1 h	|
-|		  |																		|		|
 | US 5    |Hangmananzeige														| Time  |
-| Task 1  |Grafikelemente Malen													|1 h	|
+| Task 1  |Grafikelemente malen													|1 h	|
 | Task 2  |Controllerklasse erstellen											|2 h	|
 | Task 3  |Zuweisung und Darstellungskontrolle der Elemente						|2 h	|
 |		  |																		|		|
@@ -155,15 +152,15 @@ inkl Storypoints
 |		  |																		|		|
 | US 7    |Gewonnen / Verloren													| Time  |
 | Task 1  |Label erstellen & Einbettung											|1 h	|
-| Task 2  |EProgrammierung der Gewinnerlogik									|1 h	|
+| Task 2  |Programmierung der Gewinnerlogik										|1 h	|
 
 
 |	Auswertung			|		|
 |----------------------:|-------|
-| Total Stunden:  		|  21	|
-| Total Story Points: 	|  27	|
-| SP/h: 				|  1.29	|
-| SP/ Iteration: 		|  27.4	|
+| Total Stunden:  		|  16	|
+| Total Story Points: 	|  24	|
+| SP/h: 				|  1.5	|
+| SP/ Iteration: 		|  31.5	|
 
 
 
