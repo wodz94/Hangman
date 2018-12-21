@@ -22,6 +22,39 @@ Der Build wird durch Maven automatisiert.
 
 ## Build Anleitung
 
+Um unsere Java Application zu builden, benutzen wir Maven und Eclipse als Umgebungen. Dank Maven kann man in den folgenden 3 Schritte unser Programm kompilieren und als ausführbare .jar Datei im **target/** Ordner finden.
+
+### 1) Maven Clean
+
+Um eine saubere Installationspfad zu erhalten, benutzt man zuerst den "maven clean" Befehl.
+
+1) Dafür öffnet man sein Projekt in Eclipse
+2) Einen Rechtsklick auf sein Projekt 
+3) Unter dem Rubrik Run As findet man die Maven build Befehle (siehe Bild unten)
+4) Hier wählt man als erstet Maven Clean
+
+<img src="https://github.com/wodz94/Hangman/blob/master/coulomb.hangman/maven1.png?raw=true" alt="MavenPic1" width="500" height="433">
+
+
+### 2) Maven Update Project
+    
+Bei Maven tritt es innerhalb der Eclipse Entwicklungsumgebung oft auf, dass ein Refresh nötig ist, um merkwürdige Fehler zu vermeiden.
+
+Im selben Kontextmenü findet man unter dem Rubrik "Maven" den Update Project Befehl.
+
+<img src="https://github.com/wodz94/Hangman/blob/master/coulomb.hangman/maven%20update.png?raw=true" alt="MavenPic2" width="500" height="473">
+
+
+
+### 3) Maven Install
+
+Nun kann man unter dem selben "Run As" Menu wie im ersten Schritt den Befehl "Maven Install" ausführen.
+
+Bei erfolgreichem Build wird das Artefakt des Buildes im Target Ordner erscheinen als ".jar" Datei.
+
+<img src="https://github.com/wodz94/Hangman/blob/master/coulomb.hangman/done.png?raw=true" alt="MavenPic2" width="500" height="165">
+
+
 ## Bedienungsanleitung
 
 
