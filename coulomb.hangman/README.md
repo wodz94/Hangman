@@ -33,9 +33,8 @@ Um eine saubere Installationspfad zu erhalten, benutzt man zuerst den "maven cle
 3) Unter dem Rubrik Run As findet man die Maven build Befehle (siehe Bild unten)
 4) Hier wählt man als erstet Maven Clean
 
+<img src="https://github.com/wodz94/Hangman/blob/master/coulomb.hangman/maven1.png?raw=true" alt="MavenPic1" width="500" height="433">
 
-
-![image](https://github.com/wodz94/Hangman/blob/master/coulomb.hangman/maven1.png?raw=true)
 
 ### 2) Maven Update Project
     
@@ -43,7 +42,7 @@ Bei Maven tritt es innerhalb der Eclipse Entwicklungsumgebung oft auf, dass ein 
 
 Im selben Kontextmenü findet man unter dem Rubrik "Maven" den Update Project Befehl.
 
-![image](https://github.com/wodz94/Hangman/blob/master/coulomb.hangman/maven%20update.png?raw=true)
+<img src="https://github.com/wodz94/Hangman/blob/master/coulomb.hangman/maven%20update.png?raw=true" alt="MavenPic2" width="500" height="473">
 
 
 
@@ -53,7 +52,7 @@ Nun kann man unter dem selben "Run As" Menu wie im ersten Schritt den Befehl "Ma
 
 Bei erfolgreichem Build wird das Artefakt des Buildes im Target Ordner erscheinen als ".jar" Datei.
 
-![image](https://github.com/wodz94/Hangman/blob/master/coulomb.hangman/done.png?raw=true)
+<img src="https://github.com/wodz94/Hangman/blob/master/coulomb.hangman/done.png?raw=true" alt="MavenPic2" width="500" height="165">
 
 
 ## Bedienungsanleitung
