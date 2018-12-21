@@ -50,7 +50,7 @@ inkl Storypoints
 | US | Name                 |                                                                                                                                                                                                                                                                                                                                                | SP | Prio |
 |---:|----------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:--:|:----:|
 | 1  | Virtuelle Tastatur   |	Als Spieler 2 moechte ich virtuelle tasten betätigen können um dem Spiel einen Buchstaben vor zu schlagen".   <br><b> Akzeptanzkriterien: </b><br> - Teste, ob im Spiel eine virtuelle tastatur angezeigt wird. <br> - Teste, ob das Programm eine bzw. die richtige Eingabe entgegennimmt.																						| 5  | 2    |
-| 2  | Physische Tastatur   |	Als Spieler 2 moechte ich über die physischen tasten, Eingaben machen können um  dem Spiel einen Buchstaben vor zu schlagen. <br><b> Akzeptanzkriterien: <br></b> - Teste, ob mit der Tastatur, Eingaben gemacht werden können die das Programm erkennt.																														| 3  | 3    |
+| 2  | Physische Tastatur   |	Als Spieler 2 moechte ich über die physischen tasten, Eingaben machen können um  dem Spiel einen Buchstaben vor zu schlagen. <br><b> Akzeptanzkriterien: <br></b> - Teste, ob mit der Tastatur, Eingaben gemacht werden können die das Programm erkennt.																														| 3  | 1    |
 | 3  | Spielinitialisierung |	Als Spieler 1 moechte ich über die physische oder vituelle Tastatur ein Wort eingeben koennen um  das Spiel zu beginnen. <br><b> Akezeptanzkriterien: <br></b> - Teste, ob sich über die physische tastatur ein Wort eingeben lässt um das Spiel zu initialisieren.<br> - Teste, ob sich über die virtuelle Tastatur ein Wort eingeben lässt um das Spiel zu initialisieren.	| 3  | 1    |
 | 4  | Tastenverriegelung   |	Als Spieler 2 moechte ich das Tasten die bereits gedrueckt wurden angezeigt werden  um  Falscheingaben zu vermeiden. <br><b> Akzeptanzkriterien: <br></b> - Teste, ob bereits ausgewaehlte Tasten "Buchstaben" disabled werden. <br> - Teste, ob das Programm von bereits ausgewählten Tasten keine eingabe mehr entgegennimmt.													| 3  | 2    |   
 | 5  | Hangmananzeige       |	Als Spieler 2 moechte ich sehen wie nach jeder Falscheingabe ein Element des Hangmans hinzu kommt um zu sehen wie viele Falscheingaben noch moeglich sind. <br> <b> Akzeptanzkriterien </b> <br> - Teste, ob nach jeder Falscheingabe ein Element des Hangmans hinzukommt. <br> - Teste, ob das Spiel beendet wird, wenn der Hangman fertig aufgebaut ist.						| 8  | 1 	|
@@ -61,13 +61,15 @@ inkl Storypoints
                 
 ### Release Plan
 
-User Stroy 3:    
+####User Stroy 3:    
 Als Spieler 1 moechte ich über die physische oder vituelle Tastatur ein Wort eingeben koennen um das Spiel zu beginnen.
 
-| Nr. | Task 																| Time  |
+| Nr. | Tasks 																| Time  |
 |-----|---------------------------------------------------------------------|-------|
 | 1	  |Textfeld erstellen & Eingabe Entgegennahme erstellen.				|2h		|
 | 2	  |Eingabeprüfung														|1h		|
+
+
 
 -	Business value 
 inkl Ausbaustufen
