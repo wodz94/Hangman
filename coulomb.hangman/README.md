@@ -170,6 +170,11 @@ inkl Ausbaustufen
 
 ## Dokumentation Sprint
 
+
+## Klassendiagramm
+<img src="https://github.com/wodz94/Hangman/blob/Julien/coulomb.hangman/CD.png?raw=true" alt="MainApp_showButton" width="657" height="657">
+
+
 ## Beschreibung von Code-Snippeds
 ### Methode showButton() aus der MainApp
 <img src="https://github.com/wodz94/Hangman/blob/master/coulomb.hangman/MainApp_showButton.PNG?raw=true" alt="MainApp_showButton" width="657" height="519">
@@ -202,3 +207,4 @@ Die Methode setKeyDisable kann von 2 Aktionen ausgelöst werden, einmal wird ein
 <img src="https://github.com/wodz94/Hangman/blob/master/coulomb.hangman/KeyKonstruktor_Aufruf_setKeyDisable.PNG?raw=true" alt="KeyKonstruktor_Aufruf_setKeyDisable" width="650" height="360">
 Zum Anderen wird sie Aufgerufen im KeyboardController mittels EventHandeler, beim Drücken einer Tastaturtaste, die Aufgrund einer If-Bedingungen Aufgerufen wird, wenn ein Buchstabe gedrückt wird.
 <img src="https://github.com/wodz94/Hangman/blob/master/coulomb.hangman/KeyboardController_keyPressed_AktionHandler.PNG?raw=true" alt="KeyboardController_keyPressed_AktionHandler" width="972" height="183">
+
