@@ -42,7 +42,7 @@ Bei Maven tritt es innerhalb der Eclipse Entwicklungsumgebung oft auf, dass ein 
 
 Im selben Kontextmenü findet man unter dem Rubrik "Maven" den Update Project Befehl.
 
-<img src="https://github.com/wodz94/Hangman/blob/master/coulomb.hangman/maven%20update.png?raw=true" alt="MavenPic2" width="500" height="473">
+<img src="https://github.com/wodz94/Hangman/blob/master/coulomb.hangman/CD.pdf?raw=true" alt="MavenPic2" width="500" height="473">
 
 
 
@@ -169,4 +169,7 @@ inkl Storypoints
 inkl Ausbaustufen
 
 ## Dokumentation Sprint
+
+## Klassendiagramm
+<img src="https://github.com/wodz94/Hangman/blob/master/coulomb.hangman/MainApp_showButton.PNG?raw=true" alt="MainApp_showButton" width="657" height="519">
 
