@@ -171,5 +171,5 @@ inkl Ausbaustufen
 ## Dokumentation Sprint
 
 ## Klassendiagramm
-<img src="https://github.com/wodz94/Hangman/blob/master/coulomb.hangman/CD.PNG?raw=true" alt="MainApp_showButton" width="657" height="519">
+<img src="https://github.com/wodz94/Hangman/blob/master/coulomb.hangman/CD.png?raw=true" alt="MainApp_showButton" width="657" height="519">
 
