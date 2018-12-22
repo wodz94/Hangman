@@ -170,6 +170,41 @@ inkl Ausbaustufen
 
 ## Dokumentation Sprint
 
+
 ## Klassendiagramm
 <img src="https://github.com/wodz94/Hangman/blob/Julien/coulomb.hangman/CD.png?raw=true" alt="MainApp_showButton" width="657" height="657">
+
+
+## Beschreibung von Code-Snippeds
+### Methode showButton() aus der MainApp
+<img src="https://github.com/wodz94/Hangman/blob/master/coulomb.hangman/MainApp_showButton.PNG?raw=true" alt="MainApp_showButton" width="657" height="519">
+In dieser Methode werden die Keys generiert, welche anschliessend in das GritPane gesetzt werden, dabei werden mithilfe einiger
+Laufvariablen die Positionen in der Kolonne und Reihe, sowie der Buchstaben 
+festgelegt, welcher auf dem Knopf angezeigt werden soll. 
+Die Interger Variable z ist dafür da, dass mithife der for-Schlaufen-Laufvariablen i und j eine Zahl generiert wird die eine fortlaufende
+Nummer ergibt. (Dies könnte man in einem Nachgang um einiges Vereinfachern).
+Die Interger Variable l startet bei 0 und ist da für die Erstellung der Keys in der ArrayList und für die Auswahl der Buchstaben.
+Die Variable a Springt mithilfe einer If - Else Funktion zwischen 1 und 2 bei einem Wechsel einer Reihe. 
+Dies um eine Versetzung der Buchstaben zwischen den Reihen zu erhalten. Dies sieht man im folgenden Bild.
+Nun wird mithilfe der Variablen in der button-ArrayList an der Position l (beginnt bei 0 und wird anschliessend immer um Eins erhöt),
+einen neuen Key durch einen Konstruktor, welcher einen Char verlangt (der Char wird durch eine Methode im Util Alphabet durch eine Zahl übergeben), erstellt.
+Anschliessend wird dieser im Grid an der Position i+a,j eingefügt. 
+<img src="https://github.com/wodz94/Hangman/blob/master/coulomb.hangman/Keyboard.PNG?raw=true" alt="Keyboard" width="1429" height="330">
+
+
+### Methode setKeyDisable() aus dem Objekt Key:
+<img src="https://github.com/wodz94/Hangman/blob/master/coulomb.hangman/Key_setKeyDisable.PNG?raw=true" alt="Key_setKeyDisable" width="833" height="146">
+In der Methode setKeyDisable vom Objekt Key, welches aus dem JavaFX Objekt Button vererbt entsteht,
+ist eine Ergenzung zur eigentlichen setDisable(true) Methode aus dem Button Objekt. 
+Diese ist zuständig für die Übergabe der Buchstaben zur Prüfung der Übereinstimmung mit dem gesuchten Wort,
+um diesen Buchstaben weitergeben zu dürfen wird zuerst geprüft:
+- ob es bereits ein Lösungswort eingegeben worden ist (länge des Wortes wird ermittelt mit dem Zusatz .laenth und bei der Initialisierung des Wortes hat es eine länge von 0),
+- ob dieser Buchstabe bereits gedrückt worden ist (Button/Key wird abgefragt ob er deaktiviert ist, die Abfrage folgt über die Methode in Button isDisable()).
+Falls einer der Fälle eintrifft wird die Methode beendet ohne etwas weiter zu geben, damit keine ungewollten Eingaben entstehen können.
+Falls beides nicht der Fall ist wird der Button Deaktiviert, dass dieser in danach nicht mehr gedrückt werden kann. 
+Weiter wird eine Methode aufgeruf, welche den Buchstaben prüft.
+Die Methode setKeyDisable kann von 2 Aktionen ausgelöst werden, einmal wird ein onAktion Event bei jedem Key erstellt und die Methode aufruft, wenn der Key/Button gedrückt wird.
+<img src="https://github.com/wodz94/Hangman/blob/master/coulomb.hangman/KeyKonstruktor_Aufruf_setKeyDisable.PNG?raw=true" alt="KeyKonstruktor_Aufruf_setKeyDisable" width="650" height="360">
+Zum Anderen wird sie Aufgerufen im KeyboardController mittels EventHandeler, beim Drücken einer Tastaturtaste, die Aufgrund einer If-Bedingungen Aufgerufen wird, wenn ein Buchstabe gedrückt wird.
+<img src="https://github.com/wodz94/Hangman/blob/master/coulomb.hangman/KeyboardController_keyPressed_AktionHandler.PNG?raw=true" alt="KeyboardController_keyPressed_AktionHandler" width="972" height="183">
 
