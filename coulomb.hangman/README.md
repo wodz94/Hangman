@@ -132,10 +132,10 @@ inkl Storypoints
 -	Iteration max Arbeitszeit: 21h 20 min 
 
 | US 2    |Physische Tastatur													| Time  |
-|<img width=100/>|               <img width=500/>                 | <img width=100/>    |
 |:-------:|---------------------------------------------------------------------|:-----:|
 | Task 1  |Im TastaturController Key Events erstellen							|1 h	|
 | Task 2  |MainApp erstellen mit rootPane										|3 h	|
+|<img width=100/>|               <img width=500/>                 | <img width=100/>    |
 
 | US 3    |Spielinitialisierung													| Time  |
 |<img width=100/>|               <img width=500/>                 | <img width=100/>    |
