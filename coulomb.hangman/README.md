@@ -139,20 +139,19 @@ inkl Storypoints
 
 | US 3    |Spielinitialisierung													| Time  |
 |:-------:|---------------------------------------------------------------------|:-----:|
-
 | Task 1  |Textfeld erstellen & Eingabe Entgegennahme erstellen					|2 h	|
 | Task 2  |Eingabeprüfung														|1 h	|
 |		  |																		|		|
+
 | US 5    |Hangmananzeige														| Time  |
 |:-------:|---------------------------------------------------------------------|:-----:|
-
 | Task 1  |Grafikelemente malen													|1 h	|
 | Task 2  |Controllerklasse erstellen											|2 h	|
 | Task 3  |Zuweisung und Darstellungskontrolle der Elemente						|2 h	|
 |		  |																		|		|
+
 | US 6    |Wortanzeige															| Time  |
 |:-------:|---------------------------------------------------------------------|:-----:|
-
 | Task 1  |Label erstellen & Einbettung											|1 h	|
 | Task 2  |Programmierung Platzhalterverwaltung									|2 h	|
 | Task 3  |Erstellung der Aktualisierungsmethode								|1 h	|
