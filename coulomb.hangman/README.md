@@ -77,24 +77,7 @@ Wenn eine Runde beendet wird ist es üblich eine Revanche zu spielen. Das Spiel 
 Viel Spass beim Spielen!
 
 
-
-## Userstories mit Akzeptanzkriterien
-inkl Storypoints
-
-## TestCases
-
-| Test Scenario ID      | TS001                                                                        | Test Case ID   | TC001 |
-|-----------------------|------------------------------------------------------------------------------|----------------|-------|
-| Test Case Description | Check if the Alphabet Class delivers all its expected values                 | Test Priority  | High  |
-| Pre-Requisite         | The Class Alphabet with methods to deliver values depending on entered value | Post-Requisite | None   |
-
-| Nr | Action                           | Input | Expected Output | Actual Output | IDE            | Test Result |
-|----|----------------------------------|-------|-----------------|---------------|----------------|-------------|
-| 1  | Return letter based on number    | 3     | 'D'             | 'D'           | Eclipse EE IDE | Passed      |
-| 2  | Return number based on letter    | 'a'   | 0               | 0             | Eclipse EE IDE | Passed      |
-| 3  | Caps-insensitivity of Test Nr 2  | 'A'   | 0               | 0             | Eclipse EE IDE | Passed      |
-
-### User Stories
+### User Stories & Akzeptanzkriterien
 
 | US | Name                 |                                                                                                                                                                                                                                                                                                                                                | SP | Prio |
 |---:|----------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:--:|:----:|
@@ -137,7 +120,7 @@ So stellten wir uns die Benutzeroberfläche des Programms vor:
 
 ### Release Plan
 
-| Sprint 1:  07.12.2018-15.12.2018  |SP |Sprint 2:  15.12.2018-27.12.2018  |SP |
+| Sprint 1:  07.12.2018-15.12.2018  |SP |Sprint 2:  15.12.2018-23.12.2018  |SP |
 |-----------|:-----:|--------|:-:|
 |User Story 2	|3	 	|User Story 4	|3	|
 |User Story 3	|3		|User Story 8	|2	|
@@ -148,59 +131,140 @@ So stellten wir uns die Benutzeroberfläche des Programms vor:
 |Total: 		|29		|Total:			|13	|
 
 
-### Velocity
+## Project Backlog
+
+| User Story | Beschreibung                                             | (h) |
+|------------|----------------------------------------------------------|-----|
+| US 1       | Virtuelle Tastatur                                       |     |
+| Task 1     | Programmierung der automatischen Buttonerstellung        | 3 h |
+| Task 2     | Einpflegen in Programmcode                               | 2 h |
+|            |                                                          |     |
+| US 2       | Physische Tastatur                                       |     |
+| Task 1     | Im TastaturController Key Events erstellen               | 1 h |
+| Task 2     | MainApp erstellen mit rootPane                           | 3 h |
+|            |                                                          |     |
+| US 3       | Spielinitialisierung                                     |     |
+| Task 1     | Textfeld erstellen & Eingabe Entgegennahme erstellen     | 2 h |
+| Task 2     | Eingabeprüfung                                           | 1 h |
+|            |                                                          |     |
+| US 4       | Tastenverriegelung                                       |     |
+| Task 1     | Tastenaktualisierung Programmieren				        | 2 h |
+| Task 2     | Aktualisierung in bestehenden Code einfügen         		| 1 h |
+|            |                                                          |     |
+| US 5       | Hangmananzeige                                           |     |
+| Task 1     | Grafikelemente malen                                     | 1 h |
+| Task 2     | Controllerklasse erstellen                               | 2 h |
+| Task 3     | Zuweisung und Darstellungskontrolle der Elemente         | 2 h |
+|            |                                                          |     |
+| US 6       | Wortanzeige                                              |     |
+| Task 1     | Label erstellen & Einbettung                             | 1 h |
+| Task 2     | Programmierung Platzhalterverwaltung                     | 2 h |
+| Task 3     | Erstellung der Aktualisierungsmethode                    | 1 h |
+|            |                                                          |     |
+| US 7       | Gewonnen / Verloren                                      |     |
+| Task 1     | Label erstellen & Einbettung                             | 1 h |
+| Task 2     | Programmierung der Gewinnerlogik                         | 1 h |
+|            |                                                          |     |
+| US 8       | New Game                                                 |     |
+| Task 1     | Menueintrag erstellen & Action zuweisen                  | 1 h |
+|            |                                                          |     |
+| US 9       | Maven                                                    |     |
+| Task 1     | Erstellung Maven Projekt & Migration bestehender Klassen | 3 h |
+| Task 2     | Anpassung pom.xml                                        | 4 h |
+
+
+## Berechung der Velocity
 
 -	Etwiklungsteam: 4 Personen
 -	Arbeitspensum pro Entwickler : 40 min Pro Tag
 -	Iterationslänge: 8 Tage
 -	Iteration max Arbeitszeit: 21h 20 min 
 
-| US 2    |Physische Tastatur													| Time  |
-|:-------:|---------------------------------------------------------------------|:-----:|
-| Task 1  |Im TastaturController Key Events erstellen							|1 h	|
-| Task 2  |MainApp erstellen mit rootPane										|3 h	|
-|		  |																		|		|
-| US 3    |Spielinitialisierung													| Time  |
-| Task 1  |Textfeld erstellen & Eingabe Entgegennahme erstellen					|2 h	|
-| Task 2  |Eingabeprüfung														|1 h	|
-|		  |																		|		|
-| US 5    |Hangmananzeige														| Time  |
-| Task 1  |Grafikelemente malen													|1 h	|
-| Task 2  |Controllerklasse erstellen											|2 h	|
-| Task 3  |Zuweisung und Darstellungskontrolle der Elemente						|2 h	|
-|		  |																		|		|
-| US 6    |Wortanzeige															| Time  |
-| Task 1  |Label erstellen & Einbettung											|1 h	|
-| Task 2  |Programmierung Platzhalterverwaltung									|2 h	|
-| Task 3  |Erstellung der Aktualisierungsmethode								|1 h	|
-|		  |																		|		|
-| US 7    |Gewonnen / Verloren													| Time  |
-| Task 1  |Label erstellen & Einbettung											|1 h	|
-| Task 2  |Programmierung der Gewinnerlogik										|1 h	|
-
+| User Story | Beschreibung                                             | (h) |
+|------------|----------------------------------------------------------|-----|
+|    US 2    | Physische Tastatur                                       |     |
+|   Task 1   | Im TastaturController Key Events erstellen               | 1 h |
+|   Task 2   | MainApp erstellen mit rootPane                           | 3 h |
+|            |                                                          |     |
+|    US 3    | Spielinitialisierung                                     |     |
+|   Task 1   | Textfeld erstellen & Eingabe Entgegennahme erstellen     | 2 h |
+|   Task 2   | Eingabeprüfung                                           | 1 h |
+|            |                                                          |     |
+|    US 5    | Hangmananzeige                                           |     |
+|   Task 1   | Grafikelemente malen                                     | 1 h |
+|   Task 2   | Controllerklasse erstellen                               | 2 h |
+|   Task 3   | Zuweisung und Darstellungskontrolle der Elemente         | 2 h |
+|            |                                                          |     |
+|    US 6    | Wortanzeige                                              |     |
+|   Task 1   | Label erstellen & Einbettung                             | 1 h |
+|   Task 2   | Programmierung Platzhalterverwaltung                     | 2 h |
+|   Task 3   | Erstellung der Aktualisierungsmethode                    | 1 h |
+|            |                                                          |     |
+|    US 7    | Gewonnen / Verloren                                      |     |
+|   Task 1   | Label erstellen & Einbettung                             | 1 h | 
+|   Task 2   | Programmierung der Gewinnerlogik                         | 1 h |
 
 |	Auswertung			|		|
 |----------------------:|-------|
-| Total Stunden:  		|  16	|
+| Total Stunden:  		|  18	|
 | Total Story Points: 	|  24	|
-| SP/h: 				|  1.5	|
-| SP/ Iteration: 		|  31.5	|
+| SP/h: 				|  1.3	|
+| SP/ Iteration: 		|  28.2	|
+
+## Dokumentation Sprint 1
+
+### Sprint Backlog (vor beginn)
+
+| User Story | Beschreibung                                             | (h) | Zuteilung |
+|------------|----------------------------------------------------------|-----|-----------|
+|    US 2    | Physische Tastatur                                       |     |           |
+|   Task 1   | Im TastaturController Key Events erstellen               | 1 h | BenK      |
+|   Task 2   | MainApp erstellen mit rootPane                           | 3 h | SimG      |
+|            |                                                          |     |           |
+|    US 3    | Spielinitialisierung                                     |     |           |
+|   Task 1   | Textfeld erstellen & Eingabe Entgegennahme erstellen     | 2 h | JulA      |
+|   Task 2   | Eingabeprüfung                                           | 1 h | JulA      |
+|            |                                                          |     |           |
+|    US 5    | Hangmananzeige                                           |     |           |
+|   Task 1   | Grafikelemente malen                                     | 1 h | RicW      |
+|   Task 2   | Controllerklasse erstellen                               | 2 h | RicW      |
+|   Task 3   | Zuweisung und Darstellungskontrolle der Elemente         | 2 h | RicW      |
+|            |                                                          |     |           |
+|    US 6    | Wortanzeige                                              |     |           |
+|   Task 1   | Label erstellen & Einbettung                             | 1 h | JulA      |
+|   Task 2   | Programmierung Platzhalterverwaltung                     | 2 h | JulA      |
+|   Task 3   | Erstellung der Aktualisierungsmethode                    | 1 h | JulA      |
+|            |                                                          |     |           |
+|    US 7    | Gewonnen / Verloren                                      |     |           |
+|   Task 1   | Label erstellen & Einbettung                             | 1 h | SimG      |
+|   Task 2   | Programmierung der Gewinnerlogik                         | 1 h | SimG      |
+|            |                                                          |     |           |
+|    US 1    | Virtuelle Tastatur                                       |     |           |
+|   Task 1   | TastaturPane erstellen                          		    | 1 h | BenK      |
+|   Task 2   | Key Klasse erstellen & im Main importieren               | 3 h | BenK      |
+|   Task 3   | TastaturController erstellen                    			| 2 h | BenK      |
 
 
 
 
--	Business value 
-inkl Ausbaustufen
-
-## Dokumentation Sprint
-
-
-## Klassendiagramm
+### Klassendiagramm
 <img src="https://github.com/wodz94/Hangman/blob/Julien/coulomb.hangman/CD.png?raw=true" alt="MainApp_showButton" width="657" height="657">
 
+### TestCases
 
-## Beschreibung von Code-Snippeds
-### Methode showButton() aus der MainApp
+| Test Scenario ID      | TS001                                                                        | Test Case ID   | TC001 |
+|-----------------------|------------------------------------------------------------------------------|----------------|-------|
+| Test Case Description | Check if the Alphabet Class delivers all its expected values                 | Test Priority  | High  |
+| Pre-Requisite         | The Class Alphabet with methods to deliver values depending on entered value | Post-Requisite | None   |
+
+| Nr | Action                           | Input | Expected Output | Actual Output | IDE            | Test Result |
+|----|----------------------------------|-------|-----------------|---------------|----------------|-------------|
+| 1  | Return letter based on number    | 3     | 'D'             | 'D'           | Eclipse EE IDE | Passed      |
+| 2  | Return number based on letter    | 'a'   | 0               | 0             | Eclipse EE IDE | Passed      |
+| 3  | Caps-insensitivity of Test Nr 2  | 'A'   | 0               | 0             | Eclipse EE IDE | Passed      |
+
+### Beschreibung von Code-Snippeds
+#### Methode showButton() aus der MainApp
 <img src="https://github.com/wodz94/Hangman/blob/master/coulomb.hangman/MainApp_showButton.PNG?raw=true" alt="MainApp_showButton" width="657" height="519">
 In dieser Methode werden die Keys generiert, welche anschliessend in das GritPane gesetzt werden, dabei werden mithilfe einiger
 Laufvariablen die Positionen in der Kolonne und Reihe, sowie der Buchstaben 
@@ -216,7 +280,7 @@ Anschliessend wird dieser im Grid an der Position i+a,j eingefügt.
 <img src="https://github.com/wodz94/Hangman/blob/master/coulomb.hangman/Keyboard.PNG?raw=true" alt="Keyboard" width="1429" height="330">
 
 
-### Methode setKeyDisable() aus dem Objekt Key:
+#### Methode setKeyDisable() aus dem Objekt Key:
 <img src="https://github.com/wodz94/Hangman/blob/master/coulomb.hangman/Key_setKeyDisable.PNG?raw=true" alt="Key_setKeyDisable" width="833" height="146">
 In der Methode setKeyDisable vom Objekt Key, welches aus dem JavaFX Objekt Button vererbt entsteht,
 ist eine Ergenzung zur eigentlichen setDisable(true) Methode aus dem Button Objekt. 
