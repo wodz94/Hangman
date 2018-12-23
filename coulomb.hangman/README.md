@@ -57,6 +57,8 @@ Bei erfolgreichem Build wird das Artefakt des Buildes im Target Ordner erscheine
 
 ## Bedienungsanleitung
 
+<img src="https://github.com/wodz94/Hangman/blob/master/coulomb.hangman/Picture_Manual.PNG?raw=true" alt="Manual" width="802" height="439">
+
 
 
 
