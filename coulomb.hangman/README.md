@@ -259,7 +259,7 @@ So stellten wir uns die Benutzeroberfläche des Programms vor:
 | 2  | Return number based on letter    | 'a'   | 0               | 0             | Eclipse EE IDE | Passed      |
 | 3  | Caps-insensitivity of Test Nr 2  | 'A'   | 0               | 0             | Eclipse EE IDE | Passed      |
 
-## Beschreibung von Code-Snippeds
+### Beschreibung von Code-Snippeds
 ### Methode showButton() aus der MainApp
 <img src="https://github.com/wodz94/Hangman/blob/master/coulomb.hangman/MainApp_showButton.PNG?raw=true" alt="MainApp_showButton" width="657" height="519">
 In dieser Methode werden die Keys generiert, welche anschliessend in das GritPane gesetzt werden, dabei werden mithilfe einiger
