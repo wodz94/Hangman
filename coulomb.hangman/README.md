@@ -156,25 +156,29 @@ So stellten wir uns die Benutzeroberfläche des Programms vor:
 -	Iteration max Arbeitszeit: 21h 20 min 
 
 | US 2    |Physische Tastatur													| Time  |
-|:-------:|---------------------------------------------------------------------|:-----:|
+|:-------:|:-------------------------------------------------------------------:|:-----:|
 | Task 1  |Im TastaturController Key Events erstellen							|1 h	|
 | Task 2  |MainApp erstellen mit rootPane										|3 h	|
-|		  |																		|		|
+
 | US 3    |Spielinitialisierung													| Time  |
+|:-------:|:-------------------------------------------------------------------:|:-----:|
 | Task 1  |Textfeld erstellen & Eingabe Entgegennahme erstellen					|2 h	|
 | Task 2  |Eingabeprüfung														|1 h	|
-|		  |																		|		|
+
 | US 5    |Hangmananzeige														| Time  |
+|:-------:|:-------------------------------------------------------------------:|:-----:|
 | Task 1  |Grafikelemente malen													|1 h	|
 | Task 2  |Controllerklasse erstellen											|2 h	|
 | Task 3  |Zuweisung und Darstellungskontrolle der Elemente						|2 h	|
-|		  |																		|		|
+
 | US 6    |Wortanzeige															| Time  |
+|:-------:|:-------------------------------------------------------------------:|:-----:|
 | Task 1  |Label erstellen & Einbettung											|1 h	|
 | Task 2  |Programmierung Platzhalterverwaltung									|2 h	|
 | Task 3  |Erstellung der Aktualisierungsmethode								|1 h	|
-|		  |																		|		|
+
 | US 7    |Gewonnen / Verloren													| Time  |
+|:-------:|:-------------------------------------------------------------------:|:-----:|
 | Task 1  |Label erstellen & Einbettung											|1 h	|
 | Task 2  |Programmierung der Gewinnerlogik										|1 h	|
 
@@ -194,13 +198,15 @@ inkl Ausbaustufen
 
 ## Dokumentation Sprint
 
+### Taskliste
 
-## Klassendiagramm
+
+### Klassendiagramm
 <img src="https://github.com/wodz94/Hangman/blob/Julien/coulomb.hangman/CD.png?raw=true" alt="MainApp_showButton" width="657" height="657">
 
 
-## Beschreibung von Code-Snippeds
-### Methode showButton() aus der MainApp
+### Beschreibung von Code-Snippeds
+#### 1) Methode showButton() aus der MainApp
 <img src="https://github.com/wodz94/Hangman/blob/master/coulomb.hangman/MainApp_showButton.PNG?raw=true" alt="MainApp_showButton" width="657" height="519">
 In dieser Methode werden die Keys generiert, welche anschliessend in das GritPane gesetzt werden, dabei werden mithilfe einiger
 Laufvariablen die Positionen in der Kolonne und Reihe, sowie der Buchstaben 
@@ -216,7 +222,7 @@ Anschliessend wird dieser im Grid an der Position i+a,j eingefügt.
 <img src="https://github.com/wodz94/Hangman/blob/master/coulomb.hangman/Keyboard.PNG?raw=true" alt="Keyboard" width="1429" height="330">
 
 
-### Methode setKeyDisable() aus dem Objekt Key:
+#### 2) Methode setKeyDisable() aus dem Objekt Key:
 <img src="https://github.com/wodz94/Hangman/blob/master/coulomb.hangman/Key_setKeyDisable.PNG?raw=true" alt="Key_setKeyDisable" width="833" height="146">
 In der Methode setKeyDisable vom Objekt Key, welches aus dem JavaFX Objekt Button vererbt entsteht,
 ist eine Ergenzung zur eigentlichen setDisable(true) Methode aus dem Button Objekt. 
