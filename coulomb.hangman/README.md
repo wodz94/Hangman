@@ -157,9 +157,9 @@ So stellten wir uns die Benutzeroberfläche des Programms vor:
 
 | US 2    |Physische Tastatur													| Time  |
 |:-------:|:-------------------------------------------------------------------:|:-----:|
-| Task 1  |Im TastaturController Key Events erstellen							|1 h	|
+| Task 1  |Im TastaturController Key Events erstellen						    |1 h	|
 | Task 2  |MainApp erstellen mit rootPane										|3 h	|
-|:-------:|:-------------------------------------------------------------------:|:-----:|
+
 | US 3    |Spielinitialisierung													| Time  |
 |:-------:|:-------------------------------------------------------------------:|:-----:|
 | Task 1  |Textfeld erstellen & Eingabe Entgegennahme erstellen					|2 h	|
