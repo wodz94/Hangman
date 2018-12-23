@@ -105,6 +105,12 @@ inkl Storypoints
 | 8  | New Game				|	Als Benutzer moechte ich ein New Game-Button klicken koennen, um eine neue Runde zu spielen ohne das Programm neu starten zu müssen. <br> <b> Akzeptanzkriterien </b> <br> - Teste ob, man zu jeder Zeit des Spiels den New Game Button drücken kann und ein neues Spiel initialisiert wird.																					| 2  | 3    |
 | 9  | Maven		 		|	Als Benutzer moechte ich von Git-Hub eine JAR-Datei herunterladen koennen um das Spiel auf meinem Computer zu Spielen. <br> <b> Akzeptanzkriterien </b> <br> - Teste ob, auf Git-Hub eine JAR-Datei vorhanden ist. <br> - Teste ob, auf Git-Hub eine Dokumentation vorhanden ist.																								| 8  | 3	|
 
+### Mock-Gui
+
+So stellten wir uns die Benutzeroberfläche des Programms vor:
+
+<img src="https://github.com/wodz94/Hangman/blob/master/coulomb.hangman/Picture_Manual.PNG?raw=true" alt="gui" width="400" height="349">
+
 ### Priorisierung
       
 | US | Name                 |  Funktional	| Dysfunktional |  Merkmal 	| Priorität |
