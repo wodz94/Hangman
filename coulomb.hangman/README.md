@@ -167,14 +167,47 @@ So stellten wir uns die Benutzeroberfläche des Programms vor:
 | US 9       | Maven                                                    |     |
 | Task 1     | Erstellung Maven Projekt & Migration bestehender Klassen | 3 h |
 | Task 2     | Anpassung pom.xml                                        | 4 h |
-## Dokumentation Sprint 1
 
-### Estimated Velocity
+
+## Berechung der Velocity
 
 -	Etwiklungsteam: 4 Personen
 -	Arbeitspensum pro Entwickler : 40 min Pro Tag
 -	Iterationslänge: 8 Tage
 -	Iteration max Arbeitszeit: 21h 20 min 
+
+| User Story | Beschreibung                                             | (h) |
+|------------|----------------------------------------------------------|-----|
+|    US 2    | Physische Tastatur                                       |     |
+|   Task 1   | Im TastaturController Key Events erstellen               | 1 h |
+|   Task 2   | MainApp erstellen mit rootPane                           | 3 h |
+|            |                                                          |     |
+|    US 3    | Spielinitialisierung                                     |     |
+|   Task 1   | Textfeld erstellen & Eingabe Entgegennahme erstellen     | 2 h |
+|   Task 2   | Eingabeprüfung                                           | 1 h |
+|            |                                                          |     |
+|    US 5    | Hangmananzeige                                           |     |
+|   Task 1   | Grafikelemente malen                                     | 1 h |
+|   Task 2   | Controllerklasse erstellen                               | 2 h |
+|   Task 3   | Zuweisung und Darstellungskontrolle der Elemente         | 2 h |
+|            |                                                          |     |
+|    US 6    | Wortanzeige                                              |     |
+|   Task 1   | Label erstellen & Einbettung                             | 1 h |
+|   Task 2   | Programmierung Platzhalterverwaltung                     | 2 h |
+|   Task 3   | Erstellung der Aktualisierungsmethode                    | 1 h |
+|            |                                                          |     |
+|    US 7    | Gewonnen / Verloren                                      |     |
+|   Task 1   | Label erstellen & Einbettung                             | 1 h | 
+|   Task 2   | Programmierung der Gewinnerlogik                         | 1 h |
+
+|	Auswertung			|		|
+|----------------------:|-------|
+| Total Stunden:  		|  18	|
+| Total Story Points: 	|  24	|
+| SP/h: 				|  1.3	|
+| SP/ Iteration: 		|  28.2	|
+
+## Dokumentation Sprint 1
 
 ### Sprint Backlog (vor beginn)
 
@@ -201,25 +234,19 @@ So stellten wir uns die Benutzeroberfläche des Programms vor:
 |    US 7    | Gewonnen / Verloren                                      |     |           |
 |   Task 1   | Label erstellen & Einbettung                             | 1 h | SimG      |
 |   Task 2   | Programmierung der Gewinnerlogik                         | 1 h | SimG      |
+|            |                                                          |     |           |
+|    US 1    | Virtuelle Tastatur                                       |     |           |
+|   Task 1   | TastaturPane erstellen                          		    | 1 h | BenK      |
+|   Task 2   | Key Klasse erstellen & im Main importieren               | 3 h | BenK      |
+|   Task 3   | TastaturController erstellen                    			| 2 h | BenK      |
 
 
 
-|	Auswertung			|		|
-|----------------------:|-------|
-| Total Stunden:  		|  16	|
-| Total Story Points: 	|  24	|
-| SP/h: 				|  1.5	|
-| SP/ Iteration: 		|  31.5	|
 
-
-
--	Business value 
-inkl Ausbaustufen
-
-## Klassendiagramm
+### Klassendiagramm
 <img src="https://github.com/wodz94/Hangman/blob/Julien/coulomb.hangman/CD.png?raw=true" alt="MainApp_showButton" width="657" height="657">
 
-## TestCases
+### TestCases
 
 | Test Scenario ID      | TS001                                                                        | Test Case ID   | TC001 |
 |-----------------------|------------------------------------------------------------------------------|----------------|-------|
