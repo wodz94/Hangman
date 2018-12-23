@@ -59,7 +59,7 @@ Bei erfolgreichem Build wird das Artefakt des Buildes im Target Ordner erscheine
 
 <img src="https://github.com/wodz94/Hangman/blob/master/coulomb.hangman/Picture_Manual.PNG?raw=true" alt="Manual" width="802" height="439">
 
-Das Spiel wird von mindestens 2 Personen gespielt. Als erstes muss sich eine der beiden Personen ein geheimes Wort überlegen. Dieses kann Sie im Eingabefeld (Pfeil 1) "Optionale Worteingabe" über die Tastatur eingeben, natürlich ohne dass es die andere Person lesen kann. Das Wort darf beliebig lang sein jedoch keine Leerschläge und nur die unten aufgeführten Buchstaben enthalten (Pfeil 2). Gross- Kleinschreibung wird nicht berücksichtigt. Am Ende der Eingabe mit der Enter-Taste bestätigen.
+Das Spiel wird von mindestens 2 Personen gespielt. Als erstes muss sich eine der beiden Personen ein geheimes Wort überlegen. Dieses kann Sie im Eingabefeld (Pfeil 1) "Optionale Worteingabe" über die Tastatur eingeben. Natürlich ohne, dass es die andere Person lesen kann. Das Wort darf beliebig lang sein jedoch keine Leerschläge und nur die unten aufgeführten Buchstaben enthalten (Pfeil 2). Gross- Kleinschreibung wird nicht berücksichtigt. Am Ende der Eingabe mit der Enter-Taste bestätigen.
 
 Anschliessend entsteht eine gestrichelte Linie. Die Anzahl Striche entspricht der Anzahl Buchstaben im Wort. 
 
