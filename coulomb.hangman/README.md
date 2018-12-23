@@ -109,7 +109,7 @@ inkl Storypoints
 
 So stellten wir uns die Benutzeroberfläche des Programms vor:
 
-<img src="https://github.com/wodz94/Hangman/blob/master/coulomb.hangman/Picture_Manual.PNG?raw=true" alt="gui" width="400" height="349">
+<img src="https://github.com/wodz94/Hangman/blob/master/coulomb.hangman/mock_gui.jpg?raw=true" alt="gui" width="400" height="349">
 
 ### Priorisierung
       
