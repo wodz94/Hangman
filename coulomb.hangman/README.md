@@ -264,7 +264,7 @@ So stellten wir uns die Benutzeroberfläche des Programms vor:
 | 3  | Caps-insensitivity of Test Nr 2  | 'A'   | 0               | 0             | Eclipse EE IDE | Passed      |
 
 ### Beschreibung von Code-Snippeds
-### Methode showButton() aus der MainApp
+#### Methode showButton() aus der MainApp
 <img src="https://github.com/wodz94/Hangman/blob/master/coulomb.hangman/MainApp_showButton.PNG?raw=true" alt="MainApp_showButton" width="657" height="519">
 In dieser Methode werden die Keys generiert, welche anschliessend in das GritPane gesetzt werden, dabei werden mithilfe einiger
 Laufvariablen die Positionen in der Kolonne und Reihe, sowie der Buchstaben 
@@ -280,7 +280,7 @@ Anschliessend wird dieser im Grid an der Position i+a,j eingefügt.
 <img src="https://github.com/wodz94/Hangman/blob/master/coulomb.hangman/Keyboard.PNG?raw=true" alt="Keyboard" width="1429" height="330">
 
 
-### Methode setKeyDisable() aus dem Objekt Key:
+#### Methode setKeyDisable() aus dem Objekt Key:
 <img src="https://github.com/wodz94/Hangman/blob/master/coulomb.hangman/Key_setKeyDisable.PNG?raw=true" alt="Key_setKeyDisable" width="833" height="146">
 In der Methode setKeyDisable vom Objekt Key, welches aus dem JavaFX Objekt Button vererbt entsteht,
 ist eine Ergenzung zur eigentlichen setDisable(true) Methode aus dem Button Objekt. 
