@@ -59,6 +59,19 @@ Bei erfolgreichem Build wird das Artefakt des Buildes im Target Ordner erscheine
 
 <img src="https://github.com/wodz94/Hangman/blob/master/coulomb.hangman/Picture_Manual.PNG?raw=true" alt="Manual" width="802" height="439">
 
+Das Spiel wird von mindestens 2 Personen gespielt. Als erstes muss sich eine der beiden Personen ein geheimes Wort überlegen. Dieses kann Sie im Eingabefeld (Pfeil 1) "Optionale Worteingabe" eingeben, natürlich ohne dass es die andere Person lesen kann. Das Wort darf beliebig lang sein jedoch keine Leerschläge und nur die unten aufgeführten Buchstaben enthalten (Pfeil 2). Gross- Kleinschreibung wird nicht berücksichtigt. Am Ende der Eingabe mit der Enter-Taste bestätigen.
+
+Anschliessend entsteht eine gestrichelte Linie. Die Anzahl Striche entspricht der Anzahl Buchstaben im Wort. 
+
+Nun ist es an der zweiten Person das geheime Wort zu erraten. Zu diesem Zweck kann Sie Buchstaben eingeben. Dies entweder über Anklicken der unten aufgeführten Buchstaben (Pfeil 2) oder über die Tastatur.
+
+Wird ein richtiger Buchstaben eingegeben so erscheint er in der gestrichelten Linie am richtigen Platz. Wird ein Buchstabe eingegeben welcher nicht dem Wort entspricht, wird man bestraft indem ein Element des Galgenmännchens (Hang man) erscheint. Es gibt insgesamt elf Elemente welche nach einander bei jedem Fehler eingeblendet werden. 
+
+Ist der Hangman vollständig aufgebaut ist das Spiel verloren. Wird das Wort herausgefunden bevor das Männchen am Galgen hängt ist es gerettet und das Spiel ist gewonnen.
+
+Wenn eine Runde beendet wird ist es üblich eine Revanche zu spielen. Das Spiel kann zu jedem Zeitpunkt über den Menubutton Game --> New Game neu initialisiert werden. 
+
+Viel Spass beim Spielen!
 
 
 
