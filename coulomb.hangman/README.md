@@ -15,10 +15,13 @@ Im "One Player"-Modus soll vom Spieler durch Knopfdruck ein Suchbegriff generier
 Dem Spieler werden verschiedene Anzeigen angezeigt. Zum einen der Spielfortschritt zum anderen die Eingabemšglichkeiten. Der Spielfortschritt wird durch zwei Grafiken erkennbar gemacht. Zum einen wird die Anzahl und die gefunden Buchstaben des Suchbegriffs angezeigt. Zum anderen wird bei jedem eingegebenen Buchstaben, welcher nicht Bestanteil des Suchbegriffs ist, Strich für Strich ein Strichmännchen vervollständigt, welches an einem Galgen hängt. Die Eingabemöglichkeit besteht aus einer virtuellen Tastatur.
 
 ### Randbedingungen
-Das Programm wird in der Programmiersprache Java erstellt.
-Das Projektteam besteht aus vier Personen.
-Zur Programmierung wird Eclipse verwendet.
-Der Build wird durch Maven automatisiert.
+Das Programm wird in der Programmiersprache Java erstellt. <br>
+Das Projektteam besteht aus vier Personen. <br>
+Zur Programmierung wird Eclipse verwendet. <br>
+Für die Gestaltung der Benutzeroberfläche wird JavaFx benutzt. <br>
+Als Codeverwaltung wird auf Github absolviert. <br>
+Der Build wird durch Maven automatisiert. <br>
+
 
 ## Build Anleitung
 
