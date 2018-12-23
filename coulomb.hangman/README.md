@@ -136,8 +136,8 @@ So stellten wir uns die Benutzeroberfläche des Programms vor:
 | User Story | Beschreibung                                             | (h) |
 |------------|----------------------------------------------------------|-----|
 | US 1       | Virtuelle Tastatur                                       |     |
-| Task 1     | Programmierung der automatischen Buttonerstellung        | 3 h  |
-| Task 2     | Einpflegen in Programmcode                               | 2 h  |
+| Task 1     | Programmierung der automatischen Buttonerstellung        | 3 h |
+| Task 2     | Einpflegen in Programmcode                               | 2 h |
 |            |                                                          |     |
 | US 2       | Physische Tastatur                                       |     |
 | Task 1     | Im TastaturController Key Events erstellen               | 1 h |
@@ -146,6 +146,10 @@ So stellten wir uns die Benutzeroberfläche des Programms vor:
 | US 3       | Spielinitialisierung                                     |     |
 | Task 1     | Textfeld erstellen & Eingabe Entgegennahme erstellen     | 2 h |
 | Task 2     | Eingabeprüfung                                           | 1 h |
+|            |                                                          |     |
+| US 4       | Tastenverriegelung                                       |     |
+| Task 1     | Tastenaktualisierung Programmieren				        | 2 h |
+| Task 2     | Aktualisierung in bestehenden Code einfügen         		| 1 h |
 |            |                                                          |     |
 | US 5       | Hangmananzeige                                           |     |
 | Task 1     | Grafikelemente malen                                     | 1 h |
