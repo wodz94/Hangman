@@ -250,19 +250,6 @@ So stellten wir uns die Benutzeroberfläche des Programms vor:
 ### Klassendiagramm
 <img src="https://github.com/wodz94/Hangman/blob/Julien/coulomb.hangman/CD.png?raw=true" alt="MainApp_showButton" width="657" height="657">
 
-### TestCases
-
-| Test Scenario ID      | TS001                                                                        | Test Case ID   | TC001 |
-|-----------------------|------------------------------------------------------------------------------|----------------|-------|
-| Test Case Description | Check if the Alphabet Class delivers all its expected values                 | Test Priority  | High  |
-| Pre-Requisite         | The Class Alphabet with methods to deliver values depending on entered value | Post-Requisite | None   |
-
-| Nr | Action                           | Input | Expected Output | Actual Output | IDE            | Test Result |
-|----|----------------------------------|-------|-----------------|---------------|----------------|-------------|
-| 1  | Return letter based on number    | 3     | 'D'             | 'D'           | Eclipse EE IDE | Passed      |
-| 2  | Return number based on letter    | 'a'   | 0               | 0             | Eclipse EE IDE | Passed      |
-| 3  | Caps-insensitivity of Test Nr 2  | 'A'   | 0               | 0             | Eclipse EE IDE | Passed      |
-
 ### Beschreibung von Code-Snippeds
 #### Methode showButton() aus der MainApp
 <img src="https://github.com/wodz94/Hangman/blob/master/coulomb.hangman/MainApp_showButton.PNG?raw=true" alt="MainApp_showButton" width="657" height="519">
@@ -296,3 +283,15 @@ Die Methode setKeyDisable kann von 2 Aktionen ausgelöst werden, einmal wird ein
 Zum Anderen wird sie Aufgerufen im KeyboardController mittels EventHandeler, beim Drücken einer Tastaturtaste, die Aufgrund einer If-Bedingungen Aufgerufen wird, wenn ein Buchstabe gedrückt wird.
 <img src="https://github.com/wodz94/Hangman/blob/master/coulomb.hangman/KeyboardController_keyPressed_AktionHandler.PNG?raw=true" alt="KeyboardController_keyPressed_AktionHandler" width="972" height="183">
 
+### TestCases
+
+| Test Scenario ID      | TS001                                                                        | Test Case ID   | TC001 |
+|-----------------------|------------------------------------------------------------------------------|----------------|-------|
+| Test Case Description | Check if the Alphabet Class delivers all its expected values                 | Test Priority  | High  |
+| Pre-Requisite         | The Class Alphabet with methods to deliver values depending on entered value | Post-Requisite | None   |
+
+| Nr | Action                           | Input | Expected Output | Actual Output | IDE            | Test Result |
+|----|----------------------------------|-------|-----------------|---------------|----------------|-------------|
+| 1  | Return letter based on number    | 3     | 'D'             | 'D'           | Eclipse EE IDE | Passed      |
+| 2  | Return number based on letter    | 'a'   | 0               | 0             | Eclipse EE IDE | Passed      |
+| 3  | Caps-insensitivity of Test Nr 2  | 'A'   | 0               | 0             | Eclipse EE IDE | Passed      |
